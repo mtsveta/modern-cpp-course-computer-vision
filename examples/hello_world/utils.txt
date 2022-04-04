@@ -20,3 +20,11 @@
 
  % c++ hello_world.o -o hello_world
 
+ # Tags
+
+-Wall
+- ...
+-Werror
+
+ # 
+
