@@ -1,0 +1,22 @@
+ % c++ hello_world.cpp
+ % ls
+ % ./a.out
+ % ./a.out 1> stdout.txt 
+
+ # Preprocessing
+
+ % c++ -E hello_world.cpp > hello_world.i
+
+ # Compiling (pro)
+
+ % c++ -S hello_world.cpp > hello_world.s
+ % c++ -S hello_world.i
+
+ # Generating an object file (producing .o file)
+
+ % c++ -c  hello_world.s
+
+ # Linking
+
+ % c++ hello_world.o -o hello_world
+
